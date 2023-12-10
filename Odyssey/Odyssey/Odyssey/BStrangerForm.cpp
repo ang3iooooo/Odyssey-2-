@@ -1,0 +1,2 @@
+#include "BStrangerForm.h"
+

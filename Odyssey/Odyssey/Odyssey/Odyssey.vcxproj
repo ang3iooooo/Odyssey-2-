@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{3D589711-02F0-4A85-9156-3DB064B2F3AB}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Odyssey</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <AdditionalOptions>/ENTRY:"mainCRTStartup" %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AAForm.cpp" />
+    <ClCompile Include="AboutForm.cpp" />
+    <ClCompile Include="AExNoForm.cpp" />
+    <ClCompile Include="AExploreForm.cpp" />
+    <ClCompile Include="AExYesForm.cpp" />
+    <ClCompile Include="AgeForm.cpp" />
+    <ClCompile Include="AIgnoreForm.cpp" />
+    <ClCompile Include="ANoForm.cpp" />
+    <ClCompile Include="ASlippedForm.cpp" />
+    <ClCompile Include="ASmallBForm.cpp" />
+    <ClCompile Include="AtticForm.cpp" />
+    <ClCompile Include="AWakingForm.cpp" />
+    <ClCompile Include="AYesForm.cpp" />
+    <ClCompile Include="BAcceptForm.cpp" />
+    <ClCompile Include="BasementForm.cpp" />
+    <ClCompile Include="BCEndForm.cpp" />
+    <ClCompile Include="BCertForm.cpp" />
+    <ClCompile Include="BCowardForm.cpp" />
+    <ClCompile Include="BKnifeForm.cpp" />
+    <ClCompile Include="BLeave2Form.cpp" />
+    <ClCompile Include="BLeaveForm.cpp" />
+    <ClCompile Include="BReadForm.cpp" />
+    <ClCompile Include="BRoomForm.cpp" />
+    <ClCompile Include="BStrangerForm.cpp" />
+    <ClCompile Include="BSuicideForm.cpp" />
+    <ClCompile Include="BSuiForm.cpp" />
+    <ClCompile Include="BTallForm.cpp" />
+    <ClCompile Include="ENDHomeForm.cpp" />
+    <ClCompile Include="ENDIntro1Form.cpp" />
+    <ClCompile Include="ENDIntroForm.cpp" />
+    <ClCompile Include="HomeForm.cpp" />
+    <ClCompile Include="Intro1Form.cpp" />
+    <ClCompile Include="IntroForm.cpp" />
+    <ClCompile Include="LeftForm.cpp" />
+    <ClCompile Include="LoadingForm.cpp" />
+    <ClCompile Include="MiniMartNoForm.cpp" />
+    <ClCompile Include="MMExploreSecForm.cpp" />
+    <ClCompile Include="MMHallForm.cpp" />
+    <ClCompile Include="MMLibraryForm.cpp" />
+    <ClCompile Include="MMRDoneForm.cpp" />
+    <ClCompile Include="MMRecheckForm.cpp" />
+    <ClCompile Include="MMReekForm.cpp" />
+    <ClCompile Include="MMRiddleForm.cpp" />
+    <ClCompile Include="MMStayForm.cpp" />
+    <ClCompile Include="MMStorageForm.cpp" />
+    <ClCompile Include="NameForm.cpp" />
+    <ClCompile Include="NorthForm.cpp" />
+    <ClCompile Include="PHHallForm.cpp" />
+    <ClCompile Include="PoliceStationForm.cpp" />
+    <ClCompile Include="PSAdmin2Form.cpp" />
+    <ClCompile Include="PSAdminForm.cpp" />
+    <ClCompile Include="PSAdminNLForm.cpp" />
+    <ClCompile Include="PSBackOfficeForm.cpp" />
+    <ClCompile Include="PSCafeteriaForm.cpp" />
+    <ClCompile Include="PSEmergencyForm.cpp" />
+    <ClCompile Include="PSFigurineForm.cpp" />
+    <ClCompile Include="PSFinalForm.cpp" />
+    <ClCompile Include="PSFKeyForm.cpp" />
+    <ClCompile Include="PSFPSafeForm.cpp" />
+    <ClCompile Include="PSKeyForm.cpp" />
+    <ClCompile Include="PSLeaveForm.cpp" />
+    <ClCompile Include="PSLookForm.cpp" />
+    <ClCompile Include="PSNoEmergencyForm.cpp" />
+    <ClCompile Include="PSOOFigurineForm.cpp" />
+    <ClCompile Include="PSPhoneForm.cpp" />
+    <ClCompile Include="PSPovForm.cpp" />
+    <ClCompile Include="PSSafeForm.cpp" />
+    <ClCompile Include="PSSafeOpenForm.cpp" />
+    <ClCompile Include="PSYesCrowForm.cpp" />
+    <ClCompile Include="RightForm.cpp" />
+    <ClCompile Include="THCCTVForm.cpp" />
+    <ClCompile Include="THClimbUpForm.cpp" />
+    <ClCompile Include="THClimbUpWOMForm.cpp" />
+    <ClCompile Include="THCompleteOpenForm.cpp" />
+    <ClCompile Include="THCwithoutLForm.cpp" />
+    <ClCompile Include="THFlashlightForm.cpp" />
+    <ClCompile Include="THFNoForm.cpp" />
+    <ClCompile Include="THLadderForm.cpp" />
+    <ClCompile Include="THLadderWMForm.cpp" />
+    <ClCompile Include="THLightForm.cpp" />
+    <ClCompile Include="THMapFLForm.cpp" />
+    <ClCompile Include="THMapForm.cpp" />
+    <ClCompile Include="THMeetingRoom2Form.cpp" />
+    <ClCompile Include="THMeetingRoomForm.cpp" />
+    <ClCompile Include="THOffForm.cpp" />
+    <ClCompile Include="THOpenForm.cpp" />
+    <ClCompile Include="THSurroundingForm.cpp" />
+    <ClCompile Include="THSurveillanceForm.cpp" />
+    <ClCompile Include="TownHallForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AAForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AExNoForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AExploreForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AExYesForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AgeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AIgnoreForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ANoForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ASlippedForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ASmallBForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AtticForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AWakingForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AYesForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BAcceptForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BasementForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BCEndForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BCertForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BCowardForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BKnifeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BLeave2Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BLeaveForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BReadForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BRoomForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BStrangerForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BSuicideForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BSuiForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="BTallForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ENDHomeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ENDIntro1Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ENDIntroForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HomeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Intro1Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="IntroForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LeftForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LoadingForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MiniMartNoForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMExploreSecForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMHallForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMLibraryForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMRDoneForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMRecheckForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMReekForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMRiddleForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMStayForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MMStorageForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NorthForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PHHallForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h" />
+    <ClInclude Include="PoliceStationForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSAdmin2Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSAdminForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSAdminNLForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSBackOfficeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSCafeteriaForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSEmergencyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSFigurineForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSFinalForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSFKeyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSFPSafeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSKeyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSLeaveForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSLookForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSNoEmergencyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSOOFigurineForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSPhoneForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSPovForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSSafeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSSafeOpenForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PSYesCrowForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RightForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THCCTVForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THClimbUpForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THClimbUpWOMForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THCompleteOpenForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THCwithoutLForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THFlashlightForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THFNoForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THLadderForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THLadderWMForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THLightForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THMapFLForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THMapForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THMeetingRoom2Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THMeetingRoomForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THOffForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THOpenForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THSurroundingForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="THSurveillanceForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TownHallForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AAForm.resx">
+      <DependentUpon>AAForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AExNoForm.resx">
+      <DependentUpon>AExNoForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AExploreForm.resx">
+      <DependentUpon>AExploreForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AExYesForm.resx">
+      <DependentUpon>AExYesForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgeForm.resx">
+      <DependentUpon>AgeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AIgnoreForm.resx">
+      <DependentUpon>AIgnoreForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ANoForm.resx">
+      <DependentUpon>ANoForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASlippedForm.resx">
+      <DependentUpon>ASlippedForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASmallBForm.resx">
+      <DependentUpon>ASmallBForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtticForm.resx">
+      <DependentUpon>AtticForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWakingForm.resx">
+      <DependentUpon>AWakingForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AYesForm.resx">
+      <DependentUpon>AYesForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BAcceptForm.resx">
+      <DependentUpon>BAcceptForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasementForm.resx">
+      <DependentUpon>BasementForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCEndForm.resx">
+      <DependentUpon>BCEndForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCertForm.resx">
+      <DependentUpon>BCertForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCowardForm.resx">
+      <DependentUpon>BCowardForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BKnifeForm.resx">
+      <DependentUpon>BKnifeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLeave2Form.resx">
+      <DependentUpon>BLeave2Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BLeaveForm.resx">
+      <DependentUpon>BLeaveForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BReadForm.resx">
+      <DependentUpon>BReadForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BRoomForm.resx">
+      <DependentUpon>BRoomForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BStrangerForm.resx">
+      <DependentUpon>BStrangerForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSuicideForm.resx">
+      <DependentUpon>BSuicideForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSuiForm.resx">
+      <DependentUpon>BSuiForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BTallForm.resx">
+      <DependentUpon>BTallForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ENDHomeForm.resx">
+      <DependentUpon>ENDHomeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ENDIntro1Form.resx">
+      <DependentUpon>ENDIntro1Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ENDIntroForm.resx">
+      <DependentUpon>ENDIntroForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro1Form.resx">
+      <DependentUpon>Intro1Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroForm.resx">
+      <DependentUpon>IntroForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeftForm.resx">
+      <DependentUpon>LeftForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniMartNoForm.resx">
+      <DependentUpon>MiniMartNoForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMExploreSecForm.resx">
+      <DependentUpon>MMExploreSecForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMHallForm.resx">
+      <DependentUpon>MMHallForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMLibraryForm.resx">
+      <DependentUpon>MMLibraryForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMRDoneForm.resx">
+      <DependentUpon>MMRDoneForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMRecheckForm.resx">
+      <DependentUpon>MMRecheckForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMReekForm.resx">
+      <DependentUpon>MMReekForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMRiddleForm.resx">
+      <DependentUpon>MMRiddleForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMStayForm.resx">
+      <DependentUpon>MMStayForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMStorageForm.resx">
+      <DependentUpon>MMStorageForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameForm.resx">
+      <DependentUpon>NameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NorthForm.resx">
+      <DependentUpon>NorthForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHHallForm.resx">
+      <DependentUpon>PHHallForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoliceStationForm.resx">
+      <DependentUpon>PoliceStationForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSAdmin2Form.resx">
+      <DependentUpon>PSAdmin2Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSAdminForm.resx">
+      <DependentUpon>PSAdminForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSAdminNLForm.resx">
+      <DependentUpon>PSAdminNLForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSBackOfficeForm.resx">
+      <DependentUpon>PSBackOfficeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSCafeteriaForm.resx">
+      <DependentUpon>PSCafeteriaForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSEmergencyForm.resx">
+      <DependentUpon>PSEmergencyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSFigurineForm.resx">
+      <DependentUpon>PSFigurineForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSFinalForm.resx">
+      <DependentUpon>PSFinalForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSFKeyForm.resx">
+      <DependentUpon>PSFKeyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSFPSafeForm.resx">
+      <DependentUpon>PSFPSafeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSKeyForm.resx">
+      <DependentUpon>PSKeyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSLeaveForm.resx">
+      <DependentUpon>PSLeaveForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSLookForm.resx">
+      <DependentUpon>PSLookForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSNoEmergencyForm.resx">
+      <DependentUpon>PSNoEmergencyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSOOFigurineForm.resx">
+      <DependentUpon>PSOOFigurineForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSPhoneForm.resx">
+      <DependentUpon>PSPhoneForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSPovForm.resx">
+      <DependentUpon>PSPovForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSSafeForm.resx">
+      <DependentUpon>PSSafeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSSafeOpenForm.resx">
+      <DependentUpon>PSSafeOpenForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSYesCrowForm.resx">
+      <DependentUpon>PSYesCrowForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightForm.resx">
+      <DependentUpon>RightForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THCCTVForm.resx">
+      <DependentUpon>THCCTVForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THClimbUpForm.resx">
+      <DependentUpon>THClimbUpForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THClimbUpWOMForm.resx">
+      <DependentUpon>THClimbUpWOMForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THCompleteOpenForm.resx">
+      <DependentUpon>THCompleteOpenForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THCwithoutLForm.resx">
+      <DependentUpon>THCwithoutLForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THFlashlightForm.resx">
+      <DependentUpon>THFlashlightForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THFNoForm.resx">
+      <DependentUpon>THFNoForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THLadderForm.resx">
+      <DependentUpon>THLadderForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THLadderWMForm.resx">
+      <DependentUpon>THLadderWMForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THLightForm.resx">
+      <DependentUpon>THLightForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THMapFLForm.resx">
+      <DependentUpon>THMapFLForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THMapForm.resx">
+      <DependentUpon>THMapForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THMeetingRoom2Form.resx">
+      <DependentUpon>THMeetingRoom2Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THMeetingRoomForm.resx">
+      <DependentUpon>THMeetingRoomForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THOffForm.resx">
+      <DependentUpon>THOffForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THOpenForm.resx">
+      <DependentUpon>THOpenForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THSurroundingForm.resx">
+      <DependentUpon>THSurroundingForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THSurveillanceForm.resx">
+      <DependentUpon>THSurveillanceForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TownHallForm.resx">
+      <DependentUpon>TownHallForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

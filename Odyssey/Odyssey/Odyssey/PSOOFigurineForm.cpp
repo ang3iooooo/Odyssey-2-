@@ -1,0 +1,2 @@
+#include "PSOOFigurineForm.h"
+

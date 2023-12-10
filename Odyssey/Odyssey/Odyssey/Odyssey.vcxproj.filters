@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HomeForm.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AgeForm.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutForm.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro1Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RightForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NorthForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceStationForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSLeaveForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSPovForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSLookForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSKeyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSAdminForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSAdmin2Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSCafeteriaForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSEmergencyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSYesCrowForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSBackOfficeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSNoEmergencyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSAdminNLForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSPhoneForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSSafeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSFPSafeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSOOFigurineForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSFKeyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSFigurineForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSSafeOpenForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSFinalForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TownHallForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PHHallForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THSurroundingForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THMeetingRoomForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THSurveillanceForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THCCTVForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THLightForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THOffForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THFlashlightForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THFNoForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THMeetingRoom2Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THOpenForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THMapForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THLadderForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THCwithoutLForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THCompleteOpenForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THLadderWMForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THClimbUpWOMForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THMapFLForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="THClimbUpForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AtticForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASmallBForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIgnoreForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AYesForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANoForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AExploreForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AExYesForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AExNoForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASlippedForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AWakingForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMartNoForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMStorageForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMRecheckForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMReekForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMHallForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMLibraryForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMExploreSecForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMRiddleForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMRDoneForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMStayForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasementForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BRoomForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BLeaveForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BReadForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BLeave2Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BKnifeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BTallForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSuicideForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BStrangerForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BSuiForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDIntroForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BAcceptForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BCowardForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BCEndForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BCertForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDIntro1Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AAForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDHomeForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HomeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AgeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NameForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro1Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RightForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NorthForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceStationForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSLeaveForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSPovForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSLookForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSKeyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSAdminForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSAdmin2Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSCafeteriaForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSEmergencyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSYesCrowForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSBackOfficeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSNoEmergencyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSAdminNLForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSPhoneForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSSafeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSFPSafeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSOOFigurineForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSFKeyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSFigurineForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSSafeOpenForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSFinalForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TownHallForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PHHallForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THSurroundingForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THMeetingRoomForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THSurveillanceForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THCCTVForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THLightForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THOffForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THFlashlightForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THFNoForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THMeetingRoom2Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THOpenForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THMapForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THLadderForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THCwithoutLForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THCompleteOpenForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THLadderWMForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THClimbUpWOMForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THMapFLForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THClimbUpForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AtticForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASmallBForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIgnoreForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AYesForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANoForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AExploreForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AExYesForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AExNoForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASlippedForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AWakingForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMartNoForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMStorageForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMRecheckForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMReekForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMHallForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMLibraryForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMExploreSecForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMRiddleForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMRDoneForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMStayForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasementForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BRoomForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BLeaveForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BReadForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BLeave2Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BKnifeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BTallForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSuicideForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BStrangerForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSuiForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ENDIntroForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BAcceptForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCowardForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCEndForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCertForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ENDIntro1Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AAForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ENDHomeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

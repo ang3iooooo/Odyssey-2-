@@ -1,0 +1,2 @@
+#include "BSuicideForm.h"
+
